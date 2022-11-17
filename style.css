@@ -30,3 +30,10 @@ header {
 .fini {
   background-color: #0c9463;
 }
+
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  body {
+    width: auto;
+    height: auto;
+  }
+}
